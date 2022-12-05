@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #6fd1d8;
 }
 
 .header {
@@ -21,8 +21,20 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #8085d4;
 }
+
+.side-tab {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    background: #de7811;
+    
+  
+}
+
 
 .header div {
     padding-top: 15px;
@@ -42,7 +54,9 @@ body {
 }
 
 a {
-    color: #ffffff;
+    margin-top: 50px;
+    padding-top: 25px;
+    color: #020107;
     text-decoration: none;
 }
 
@@ -51,10 +65,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("https://johnmccarterconstruction.com/wp-content/uploads/replacement-windows-ann-arbor.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -212,6 +226,12 @@ form {
   textarea {
     vertical-align: top;
     height: 60px;
+  }
+
+  .quantity {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
   }
     
   button {
