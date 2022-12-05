@@ -24,14 +24,13 @@ body {
     color: #8085d4;
 }
 
-.side-tab {
-    position: fixed;
-    width: 200px;
-    height: auto;
-    text-align: center;
-    padding: 10px;
-    background: #de7811;
-    
+#side-tab {
+    position:fixed;
+    display: inline-block;
+    background: pink;
+    left: 89vw;
+    padding: 15px 40px;
+    border-radius: 10% 0 0 10%;
   
 }
 
@@ -52,6 +51,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+h2 {
+    text-align: center;
+    color:#020107;
+}
+
+h3 {
+    color:black;
+}
+ 
 
 a {
     margin-top: 50px;
@@ -221,8 +230,12 @@ form {
     box-sizing: border-box;
     width: 300px;
     border: 1px solid #4F4846;
+    height: 20px;
   }
   
+  #quantity {
+    height: 80px;
+  }
   textarea {
     vertical-align: top;
     height: 60px;
@@ -248,6 +261,10 @@ form {
   
   .text-right {
     text-align: right;
+  }
+
+  li {
+    list-style: none;
   }
 
 .footer {
