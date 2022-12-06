@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #6fd1d8;
+    background-color: #8085d4;
 }
 
 .header {
@@ -27,13 +27,14 @@ body {
 #side-tab {
     position:fixed;
     display: inline-block;
-    background: rgb(244, 242, 240);
+    background: #8085d4;
     left: 89vw;
     padding: 1px 20px;
     border-radius: 10% 0 0 10%;
     font-family: cursive;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
   
 }
 
@@ -112,6 +113,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    border-radius: 15px;
 }
 
 .benefit-lead {
@@ -169,6 +171,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 15px;
 }
 
 .online-reputation-management {
@@ -178,6 +181,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 15px;
 }
 
 .social-media-marketing {
@@ -187,6 +191,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 15px;
 }
 
 .search-engine-optimization img {
